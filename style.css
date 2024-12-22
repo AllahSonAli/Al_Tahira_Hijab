@@ -1,0 +1,92 @@
+/* Set the background image for the entire webpage */
+body{
+    background-image: url('images/back.jpg'); /* Path to your background image */
+}
+
+/* Style for header */
+header {
+    background-color: rgba(255, 255, 255,); /* Semi-transparent background */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navbar style */
+nav ul {
+    list-style: none;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background: #4CAF50;
+}
+
+/* Section styling */
+section {
+    padding: 20px;
+    background: rgba(255, 255, 255,0.8); /* Semi-transparent background for readability if needed i.e 0.8 */
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+/* Hijab container */
+.Hijab-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Hijab card styling */
+.Hijab {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.Hijab img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Footer styling */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Responsive design for mobile screens */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    .Hijab {
+        width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 20px;
+    }
+}

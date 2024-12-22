@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Launch Chrome",
+        "type": "chrome",
+        "request": "launch",
+        "url": "http://localhost:5500", // Or your Live Server URL
+        "webRoot": "${workspaceFolder}"
+      }
+    ]
+  }
+  
